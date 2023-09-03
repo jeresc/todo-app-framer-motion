@@ -9,15 +9,30 @@ const initialState = {
     {
       text: 'React Hooks',
       completed: false,
-      id: 'b967afe24b23'
+      id: 'b967afe24b23',
+    },
+    {
+      text: 'Framer Motion is awesome',
+      completed: true,
+      id: '0312plaodas',
+    },
+    {
+      text: 'todos app',
+      completed: false,
+      id: 'lkdoi3p21',
     },
     {
       text: 'Context',
+      completed: false,
+      id: 'b930921ae24a132',
+    },
+    {
+      text: 'New Task',
       completed: true,
-      id: 'b967afe24a13'
-    }
+      id: 'lasdj1k2j3',
+    },
   ],
-  visibilityFilter: 'All'
+  visibilityFilter: 'All',
 }
 const App = () => (
   <TodoProvider initialState={initialState} reducer={reducer}>
